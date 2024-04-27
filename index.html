@@ -79,8 +79,8 @@
     </header>
 
     <div class="mainVisual">
-      <img src="./img/mv_sp.png" class="mv_sp" alt="" />
-      <img src="./img/mv_pc.png" class="mv_pc" alt="">
+      <img src="/img/mv_sp01.png" class="mv_sp" alt="" />
+      <img src="/img/mv_pc01.png" class="mv_pc" alt="">
     </div>
     <main>
       <section class="message" id="message">
@@ -101,8 +101,6 @@
           </p>
         </div>
       </section>
-
-
       <section class="work" id="work">
         <h2>
           <img src="./img/work_h2_sp.png" alt="work" />
@@ -165,10 +163,10 @@
      
       </div>
       <div class="button-next">
-        <img src="./img/arrow01.png" alt="">
+        <img src="/img/arrow01.png" alt="">
       </div>
       <div class="button-prev">
-        <img src="./img/arrow00.png" alt="">
+        <img src="/img/arrow00.png" alt="">
       </div>
     </div>
   </section>
@@ -185,30 +183,7 @@
         loop: true, // ループ機能を有効にする
       });
     </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </section>
+    </section>
       <section class="company" id="company">
         <h2>
           <img src="./img/company_h2_sp.png" alt="company" />
@@ -216,7 +191,7 @@
         <div class="company_bg"></div>
         <div class="company_bee">
           <img src="./img/bee_sp.png" class="bee_sp" alt="蜂のイラスト">
-          <img src="./img/bee_pc.png" class="bee_pc" alt="蜂のイラスト">
+          <img src="/img/bee_pc.png" class="bee_pc" alt="蜂のイラスト">
         </div>
           <div class="company_wrapper">
             <div class="company_description">
@@ -256,12 +231,7 @@
         <h2>
           <img src="./img/history_h2_sp.png" alt="h2" />
         </h2>
-
-          <!-- <div class="history_wrapper">
-          
-          </div> -->
         <div class="accordion">
-         
           <div class="accordion_content_all">
             <div id="accordion_content" class="accordion_content">   
               <div class="history_description">
@@ -337,7 +307,6 @@
                 <p class="history_year">平成18年</p>
                 <p class="history_p">個人経営を改組、有限会社　神戸はちみつ園設立</p>
               </div>
-
           </div>
           </div>
           <div class="accordion_button_wrapper" id="accordion_button_id">
@@ -345,8 +314,6 @@
           </div>
         </div>
         </div>
-
-
         <div class="history_content_pc">   
           <div class="history_description">
             <p class="history_year">昭和3年</p>
@@ -423,44 +390,20 @@
           </div>
 
       </div>
+    <script>
 
+    let history_buttons = document.querySelectorAll(".accordion_button");
+    let history_content = document.getElementById("accordion_content");
+    let accordion_button = document.getElementById("accordion_button_id");
 
-        
-
-
-
-        <script>
-
-let history_buttons = document.querySelectorAll(".accordion_button");
-let history_content = document.getElementById("accordion_content");
-let accordion_button = document.getElementById("accordion_button_id");
-
-history_buttons.forEach(button => {
-  button.addEventListener('click', () =>{
+    history_buttons.forEach(button => {
+    button.addEventListener('click', () =>{
     history_content.classList.toggle("active");
     accordion_button.classList.toggle("aaaaa");
-    
-    
-    // accordion_button.classList.toggle("aaaaa");
-
-
-
-    // if(history_accordion.style.display === "block"){
-    //   history_accordion.style.display = "none";
-    //   accordion_button.style.display = "block";
-    //   accordion_border.style.display = "block";
-    // } else {
-    //   history_accordion.style.display = "block";
-    //   accordion_button.style.display = "none";
-    //   accordion_border.style.display = "none";
-
-    // }
   });
 });          
-        </script>
-      
-       
-        <img src="./img/honey_pc.png" class="honey_pc" alt="ハチミツのイラスト">
+</script> 
+      <img src="/img/honey_pc.png" class="honey_pc" alt="ハチミツのイラスト">
       </section>
     </main>
     <footer id="contact">
@@ -480,6 +423,6 @@ history_buttons.forEach(button => {
       <div class="footer_color">
       </div>
     </footer>
-    <script src="/JS/main.js"></script>
+    <script src="./JS/main.js"></script>
   </body>
 </html>
