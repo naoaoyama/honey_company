@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1280" height="851" viewBox="0 0 1280 851">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_1" data-name="長方形 1" width="1280" height="68.373" fill="#f7a533"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="長方形_1-2" data-name="長方形 1" width="1280" height="85" fill="#f7a533"/>
+    </clipPath>
+  </defs>
+  <g id="グループ_78" data-name="グループ 78" transform="translate(0 0)">
+    <g id="グループ_65" data-name="グループ 65" transform="translate(-342)">
+      <g id="グループ_58" data-name="グループ 58">
+        <g id="グループ_16" data-name="グループ 16" transform="translate(342 13)">
+          <g id="グループ_3" data-name="グループ 3" transform="translate(1280 798) rotate(180)">
+            <g id="グループ_1" data-name="グループ 1" transform="translate(0 -40)" clip-path="url(#clip-path)">
+              <path id="パス_1" data-name="パス 1" d="M1280,0V53.755c-13.72,1.288-34.508,4.031-59.893,5.149-96.468,4.249-144.712-5.143-213.049-8.755-164.706-8.7-176.351,30.438-296.044,13.389-36.243-5.164-79.889-15.121-135.187-6.7-27.01,4.116-40.216,10.091-71.016,11.328C465.6,69.748,446.8,61.678,408.983,55.3c-60.852-10.266-113.58-6.476-203.635,0-48.185,3.464-57.858,6.581-95.829,6.694A704.126,704.126,0,0,1,0,53.755V0Z" transform="translate(0 0.001)" fill="#f7a533"/>
+            </g>
+          </g>
+          <g id="グループ_2" data-name="グループ 2" transform="translate(0 -13)">
+            <g id="グループ_1-2" data-name="グループ 1" transform="translate(0 0)" clip-path="url(#clip-path-2)">
+              <path id="パス_1-2" data-name="パス 1" d="M1280,0V66.827c-13.72,1.6-34.508,5.011-59.893,6.4-96.468,5.282-144.712-6.394-213.049-10.883C842.353,51.526,830.708,100.185,711.015,78.99c-36.243-6.419-79.889-18.8-135.187-8.324-27.01,5.117-40.216,12.545-71.016,14.083-39.215,1.96-58.011-8.073-95.829-16-60.852-12.763-113.58-8.05-203.635,0-48.185,4.306-57.858,8.181-95.829,8.321A569.72,569.72,0,0,1,0,66.827V0Z" transform="translate(0 0.001)" fill="#f7a533"/>
+            </g>
+          </g>
+          <text id="神戸はちみつ園" transform="translate(92 29)" font-size="20" font-family="DNPShueiMGoStd-B, DNP ShueiMGoStd" letter-spacing="0.03em"><tspan x="-71" y="0">神戸はちみつ園</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="Icon_feather-menu" data-name="Icon feather-menu" transform="translate(343.694 13)">
+      <path id="パス_443" data-name="パス 443" d="M4.5,18H25.306" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="パス_444" data-name="パス 444" d="M4.5,9H25.306" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="パス_445" data-name="パス 445" d="M4.5,27H25.306" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
