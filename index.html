@@ -44,7 +44,7 @@
     <header>
       <h1>神戸はちみつ園</h1>
 
-      <div class="sp">
+      <div class="sp" >
         <!-- ハンバーガーメニューのアイコン -->
         <div class="hamburger" id="hamburger">
           <div class="hamburger-icon"></div>
@@ -56,16 +56,40 @@
         <div class="menu" id="menu">
           <h1>神戸はちみつ園</h1>
             <ul>
-              <li><a href="/index.html">TOP</a></li>
-              <li><a href="#work">業務内容</a></li>
-              <li><a href="#company">会社概要</a></li>
-              <li><a href="#history">神戸はちみつ園の歴史</a></li>
-              <li><a href="#contact">お問い合わせ</a></li>
+              <li><a href="/index.html" id="menu_list">TOP</a></li>
+              <li><a href="#work" class="menu_list">業務内容</a></li>
+              <li><a href="#company" class="menu_list">会社概要</a></li>
+              <li><a href="#history" class="menu_list">神戸はちみつ園の歴史</a></li>
+              <li><a href="#contact" class="menu_list">お問い合わせ</a></li>
             </ul>
             <img src="./img/sp_menu_person.png" alt="">
         </div>
+        
       </div>
       </div>
+      <script>
+        let hamburger = document.getElementById("hamburger");
+        let menu = document.getElementById("menu");
+
+        hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle("active");
+        menu.classList.toggle("active");
+      });
+      
+      let menu_lists = document.querySelectorAll(".menu_list");
+
+      menu_lists.forEach(menu_list => {
+      menu_list.addEventListener('click', () =>{
+      hamburger.classList.remove("active");
+      menu.classList.remove("active");
+  });
+});         
+
+      
+
+        
+
+      </script>
       <div class="pc">
             <ul>
               <li><a href="/index.html">TOP</a></li>
