@@ -619,7 +619,7 @@ transform: rotate(180deg);
 @media(min-width:1000px){
 
 .pc ul {
-  column-gap: 80px;
+  column-gap: 40px;
 }
 
 .mainVisual .mv_pc{
@@ -702,8 +702,8 @@ transform: rotate(180deg);
   display: block;
   position: absolute;
   right: 0;
-  top: 600px;
   z-index: -1;
+  bottom: 0px;
 }
 
 .history_description{
