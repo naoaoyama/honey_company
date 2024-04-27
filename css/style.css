@@ -82,7 +82,7 @@ h3,p {
 
   .sp ul {
     padding-left: 63px;
-    /* padding-top: 104px; */
+    padding-top: 30px;
     line-height: 3;
   }
 
@@ -94,8 +94,7 @@ h3,p {
   }
 
   .sp img {
-    padding-left: 140px;
-    bottom: 50px;
+    padding-left: 110px;
   }
 
 
