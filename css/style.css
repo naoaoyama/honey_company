@@ -55,6 +55,10 @@ h3,p {
     z-index: 1000;
   }
 
+  h2 img{
+    width: 230px;
+  }
+
   .pc{
     display: none;
   }
@@ -68,7 +72,6 @@ h3,p {
     font-family: "dnp-shuei-mgothic-std", sans-serif;
     font-weight: 600;
     font-style: normal;
-
   }
 
   .sp {
@@ -95,6 +98,7 @@ h3,p {
 
   .sp img {
     padding-left: 110px;
+    width: 240px;
   }
 
 
@@ -204,6 +208,7 @@ margin-top: -20px;
     text-align: center;
     padding-bottom: 30px;
    }
+   
 
    .work_wrapper_pc {
     display: none;
@@ -215,7 +220,7 @@ margin-top: -20px;
   
   .slide_all .swiper-slide img{
     margin: auto;
-    /* width: 200px; */
+    width: 330px;
     display: block;
   }
   
@@ -242,7 +247,7 @@ margin-top: -20px;
   .button-next,
   .button-prev{
     position: absolute;
-    top: 20px;  
+    top: 40px;  
     z-index: 999;
   }
   
@@ -252,6 +257,12 @@ margin-top: -20px;
   .button-prev{
   left: 20px;
   }
+
+  .button-next img,
+  .button-prev img {
+    width: 60px;
+  }
+
 
 
    
@@ -320,6 +331,7 @@ margin-top: -20px;
    .bee_sp {
     position: absolute;
     right: 0;
+    width: 121px;
    }
 
    .bee_pc {
@@ -342,6 +354,15 @@ margin-top: -20px;
     flex-direction: column;
     align-items: center;
    }
+
+   .history h2 img {
+    width: 360px;
+   } 
+
+   .history_h2_pc{
+    display: none;
+   }
+
 
    .history > figure > img {
     display: none;
@@ -689,7 +710,8 @@ transform: rotate(180deg);
   display: block;
   position: absolute;
   left: 0;
-  top: 800px;
+  bottom: -40px;
+  width: 265px;
  }
 
 
@@ -698,12 +720,23 @@ transform: rotate(180deg);
   position: relative;
 }
 
+.history h2 img {
+  width: 540px;
+}
+.history_h2_sp{
+  display: none;
+ }
+.history_h2_pc{
+  display: block;
+ }
+
 .honey_pc {
   display: block;
   position: absolute;
   right: 0;
   z-index: -1;
   bottom: 0px;
+  width: 337px;
 }
 
 .history_description{
